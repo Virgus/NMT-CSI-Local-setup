@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository>
+    <Applications>
+    	<Application> 
+			<Name>Tuner</Name> 
+			<Version>1.0.0</Version> 
+			<DownloadURL>http://nmt-radio.co.cc/package/1.0.0/Tuner.zip</DownloadURL> 
+			<Author>Ahmed Zamouche</Author> 
+			<Maintainer>Ahmed Zamouche</Maintainer>
+			<Description>
+Browse radio stations streaming live on the internet.
+Features:
+Access  the web interface from a local machine. And remotely play your
+favourites stations.
+Filter stations according to your needs.
+Customise the look of Tuner.
+Favourites management. 
+
+NB:
+Help keep this site up to date, please email me with any corrections.
+New additions are always welcome, but only FM/AM stations also
+streaming online, no internet-only stations please.
+Also available as web service at http://nmt-radio.co.cc
+medzam@gmail.com
+			</Description> 
+			<Homepage>http://nmt-radio.co.cc</Homepage> 
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;Tuner.tar</InstallScript> 
+			<WebInterfaceURL>http://[NMT_IP]:9999/Tuner_web/</WebInterfaceURL> 
+			<GayaInterfaceURL>http://[NMT_IP]:9999/Tuner_web/</GayaInterfaceURL> 
+			<Screenshots>
+				<URL>http://nmt-radio.co.cc/package/1.0.0/ScreenShot/Screenshot-0.png</URL>
+				<URL>http://nmt-radio.co.cc/package/1.0.0/ScreenShot/Screenshot-1.png</URL> 
+				<URL>http://nmt-radio.co.cc/package/1.0.0/ScreenShot/Screenshot-2.png</URL>
+				<URL>http://nmt-radio.co.cc/package/1.0.0/ScreenShot/Screenshot-3.png</URL> 
+			</Screenshots>
+			<UsageInstructions>	
+If you want to add your owns stations, edit the stations.xml file.
+Don't forget to disable the automatic updates of the
+contab.sh
+			</UsageInstructions> 
+			<Forum>http://www.networkedmediatank.com/</Forum>
+			<Changelog /> 
+    	</Application>
+    	<Application>
+			<Name>Mono.Wrapper</Name>
+			<Version>0.10</Version>
+			<DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Mono.Wrapper.zip</DownloadURL>
+			<Author>journey4712</Author>
+			<Maintainer>journey4712</Maintainer>
+			<Description>This program is called mono.wrapper.
+			When used together with a static jukebox like YAMJ or MLMJ stored on your internal disk you will no longer have to worry about a share being mounted to play a video off of it.
+			The software is configured to work with all configured NMT shares, NFS and SMB.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=17494</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;Mono.Wrapper.tar</InstallScript>
+			<WebInterfaceURL />
+			<GayaInterfaceURL />
+			<Screenshots />
+			<UsageInstructions />
+			<Forum />
+			<Changelog />
+    	</Application>
+    	<Application>
+			<Name>lighttpd</Name>
+			<Version>1.4.23-nmt2</Version>
+			<DownloadURL>http://torrentwatch.googlecode.com/svn/trunk/downloads/lighttpd-1.4.23-nmt2.zip</DownloadURL>
+			<Author>journey4712</Author>
+			<Maintainer>journey4712</Maintainer>
+			<Description>
+			lighttpd replaces the web server on port 9999. The effect is that any php program that runs on port 9999 will run much faster than through the stock NMT webserver.
+			Any application that runs entirely on port 9999 should have a much snappier/faster interface. Requests that used to take a second or two should be shortened to a (large)fraction of a second. The programmers using lighttpd also have more development options(image generation/manipulation, https support, debugging support, xml transformation via xslt, more) than they did with the stock php server.
+			</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=25850&amp;action=newpost</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;lighttpd.tar</InstallScript>
+			<WebInterfaceURL/>
+			<GayaInterfaceURL/>
+			<Screenshots/>
+			<UsageInstructions />
+			<Forum />
+			<Changelog />
+    	</Application>
+        <Application>
+         <Name>CouchpotatoV2</Name>
+         <Version>2.2</Version>
+         <DownloadURL>http://localhost/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip</DownloadURL>
+         <Author>RuudBurger</Author>
+         <Maintainer>JHMiller</Maintainer>
+         <Description>CouchPotato is an automatic NZB and torrent downloader. You can keep a "movies I want"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the .nzb or .torrent to a specified directory. 
+</Description>
+         <Homepage>http://couchpotatoapp.com/</Homepage>
+         <InstallScript>Apps/AppInit/appinit.cgi?install&amp;CouchpotatoV2.tar</InstallScript>
+         <WebInterfaceURL>http://[NMT_IP]:5050</WebInterfaceURL>
+         <GayaInterfaceURL></GayaInterfaceURL>
+         <Screenshots>
+            <URL></URL>
+         </Screenshots>
+         <UsageInstructions>BEFORE installing CouchPotato, you MUST have installed "local" with C.S.I
+		 The interface can be found at http://PCH-IP:5050</UsageInstructions>
+         <Forum>http://www.networkedmediatank.com/showthread.php?tid=53792</Forum>
+         <Changelog></Changelog>
+      </Application>
+	  <Application>
+         <Name>SickBeard</Name>
+         <Version>1.1</Version>
+         <DownloadURL>http://localhost/csi/csi-packages/sickbeard_CSI-ALL.zip</DownloadURL>
+         <Author>midgetspy</Author>
+         <Maintainer>JHMiller</Maintainer>
+         <Description>SickBeard is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
+
+</Description>
+         <Homepage>http://sickbeard.com</Homepage>
+         <InstallScript>Apps/AppInit/appinit.cgi?install&amp;sickbeard.tar</InstallScript>
+         <WebInterfaceURL>http://[NMT_IP]:8081</WebInterfaceURL>
+         <GayaInterfaceURL></GayaInterfaceURL>
+         <Screenshots>
+            <URL></URL>
+         </Screenshots>
+         <UsageInstructions>BEFORE installing SickBeard, you MUST have installed "local" with C.S.I
+		 The interface can be found at http://PCH-IP:8081</UsageInstructions>
+         <Forum>http://www.networkedmediatank.com/showthread.php?tid=53792</Forum>
+         <Changelog></Changelog>
+      </Application>
+	  <Application>
+         <Name>SickRage</Name>
+         <Version>1.0</Version>
+         <DownloadURL>http://localhost/csi/csi-packages/sickrage_CSI-ALL.zip</DownloadURL>
+         <Author>echel0n</Author>
+         <Maintainer>JHMiller</Maintainer>
+         <Description>SickBeard is a PVR for newsgroup and torrent users. It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
+
+</Description>
+         <Homepage>https://www.sickrage.tv/</Homepage>
+         <InstallScript>Apps/AppInit/appinit.cgi?install&amp;sickrage.tar</InstallScript>
+         <WebInterfaceURL>http://[NMT_IP]:8081</WebInterfaceURL>
+         <GayaInterfaceURL></GayaInterfaceURL>
+         <Screenshots>
+            <URL></URL>
+         </Screenshots>
+         <UsageInstructions>The interface can be found at http://PCH-IP:8081</UsageInstructions>
+         <Forum>http://www.networkedmediatank.com/showthread.php?tid=53792</Forum>
+         <Changelog></Changelog>
+      </Application>
+        <Application>
+            <Name>Telnetd</Name>
+            <Version>1.14.1</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Telnetd.zip</DownloadURL>
+            <Author>Ger Teunis</Author>
+            <Maintainer>Ger Teunis</Maintainer>
+            <Description>LISEZ MOI!! Après la mise à jour et ou la réinstallAtion vous devrez redémarrer votre NMT. C'est un kit de démarrage très complet pour acceder aux Linux de votre Pop Corn Hour.Il contient un démon , UN BusyBox and Midnight Commander très complets</Description>
+            <Homepage>http://www.lundman.net/wiki/index.php/NMT:telnetd</Homepage>
+            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;telnetd.tar</InstallScript>
+            <WebInterfaceURL/>
+            <GayaInterfaceURL/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Application>
+        <Application>
+            <Name>NZBget</Name>
+            <Version>12.0-testing-r883</Version>
+			<DownloadURL>http://localhost/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip</DownloadURL>
+            <Author>hugbug</Author>
+            <Maintainer>JHMiller</Maintainer>
+            <Description>TESTING RELEASE! Installs the latest test version of NZBget, optimized for NZB. Also contains an optimized UNRAR 3.80 and PAR2.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7538</Homepage>
+            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;nzbget.tar</InstallScript>
+            <WebInterfaceURL>http://[NMT_IP]:6789</WebInterfaceURL>
+            <GayaInterfaceURL/>
+            <Screenshots>
+				<URL>http://nzbget.sourceforge.net/wiki/images/f/fc/Web-Interface-01-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/1/13/Web-Interface-02-Add-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/5/53/Web-Interface-03-Pause-Button.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/f/f2/Web-Interface-04-QuickSearch.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/2/20/Web-Interface-05-Edit-Download.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/7/7c/Web-Interface-06-Multiselect.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/1/13/Web-Interface-07-Multiedit-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/3/38/Web-Interface-08-Merge-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/e/eb/Web-Interface-09-Notification.png</URL>
+			</Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog>http://nzbget.svn.sourceforge.net/viewvc/nzbget/?view=log</Changelog>
+        </Application>
+        <Application>
+            <Name>NZBget</Name>
+            <Version>11.0-stable</Version>
+			<DownloadURL>http://localhost/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip</DownloadURL>
+            <Author>hugbug</Author>
+            <Maintainer>JHMiller</Maintainer>
+            <Description>TESTING RELEASE! Installs the latest test version of NZBget, optimized for NZB. Also contains an optimized UNRAR 3.80 and PAR2.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7538</Homepage>
+            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;nzbget.tar</InstallScript>
+            <WebInterfaceURL>http://[NMT_IP]:6789</WebInterfaceURL>
+            <GayaInterfaceURL/>
+            <Screenshots>
+				<URL>http://nzbget.sourceforge.net/wiki/images/f/fc/Web-Interface-01-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/1/13/Web-Interface-02-Add-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/5/53/Web-Interface-03-Pause-Button.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/f/f2/Web-Interface-04-QuickSearch.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/2/20/Web-Interface-05-Edit-Download.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/7/7c/Web-Interface-06-Multiselect.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/1/13/Web-Interface-07-Multiedit-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/3/38/Web-Interface-08-Merge-Downloads.png</URL>
+				<URL>http://nzbget.sourceforge.net/wiki/images/e/eb/Web-Interface-09-Notification.png</URL>
+			</Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog>http://nzbget.svn.sourceforge.net/viewvc/nzbget/?view=log</Changelog>
+        </Application>
+    </Applications>
+    <Themes>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>AppleTV (mcmillyonaire)</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/AppleTV.zip</DownloadURL>
+            <Author>mcmillyonaire</Author>
+            <Maintainer/>
+            <Description>Thème AppleTV pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=5677</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Black and White</Name>
+            <Version>3.3</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/BlackandWhite.zip</DownloadURL>
+            <Author>FLaSH</Author>
+            <Maintainer/>
+            <Description>Thème en noir et blanc pour le NMT. Pour affichage en HD et SD.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=8634</Homepage>
+            <Screenshots>
+                <URL>http://img217.imageshack.us/img217/4797/blackandwhitev33myihomevj6.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>LCARS</Name>
+            <Version>2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/LCARS.zip</DownloadURL>
+            <Author>Cybrow</Author>
+            <Maintainer/>
+            <Description>Un thème genre StarTrek pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=10826</Homepage>
+            <Screenshots>
+                <URL>http://www.allpointsshopping.com/Example%20003.jpg</URL>
+                <URL>http://www.allpointsshopping.com/Example%20001.jpg</URL>
+                <URL>http://www.allpointsshopping.com/Example%20002.jpg</URL>
+                <URL>http://www.allpointsshopping.com/Example%20004.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>OMG Black</Name>
+            <Version>2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/OMGBlack.zip</DownloadURL>
+            <Author>sfortis</Author>
+            <Maintainer/>
+            <Description>Un thème NMT minimaliste noir très chic.  Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=7807</Homepage>
+            <Screenshots>
+                <URL>http://img398.imageshack.us/img398/8949/09082008202736hj9.jpg</URL>
+                <URL>http://img237.imageshack.us/img237/2891/09082008202953zj2.jpg</URL>
+                <URL>http://img262.imageshack.us/img262/4096/09082008202504xq7.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>PCH Simplified</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/PCHSimplified.zip</DownloadURL>
+            <Author>scsi</Author>
+            <Maintainer/>
+            <Description>Un thème NMT minimaliste. Pour affichage en HD et SD.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=5532</Homepage>
+            <Screenshots>
+                <URL>http://img374.imageshack.us/img374/8367/pch1de0.jpg</URL>
+                <URL>http://img154.imageshack.us/img154/2721/pch2lo4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>PowerCinema 5</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/PowerCinema5.zip</DownloadURL>
+            <Author>egon</Author>
+            <Maintainer/>
+            <Description>Un thème genre PowerCinema 5 pour le NMT. Pour affichage en HD et SD.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=5468</Homepage>
+            <Screenshots>
+                <URL>http://blackpoint.pri.ee/download/PCH/PCH_PowerCinema5_SD_HD_Theme.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>XBMC</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/XBMC.zip</DownloadURL>
+            <Author>Siggi Jarl</Author>
+            <Maintainer/>
+            <Description>Un thème genre XBMC créé par Siggi Jarl pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=5126</Homepage>
+            <Screenshots>
+                <URL>http://www.simnet.is/siggijarl/pch/xbmc_nmt_home.jpg</URL>
+                <URL>http://www.simnet.is/siggijarl/pch/xbmc_nmt_videos.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Mario Tennis</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/MarioTennis.zip</DownloadURL>
+            <Author>Jovicom</Author>
+            <Maintainer/>
+            <Description>Un thème à la Mario Tennis (NINTENDO) créé par Jovicom pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=4567</Homepage>
+            <Screenshots>
+                <URL>http://i28.tinypic.com/15dly8h.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Ipod Touch</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/IpodTouch.zip</DownloadURL>
+            <Author>Jovicom</Author>
+            <Maintainer/>
+            <Description>Un thème à la Ipod Touch créé par Jovicom pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=4567</Homepage>
+            <Screenshots>
+                <URL>http://i29.tinypic.com/17fy55.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Indiana Jones</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/IndianaJones.zip</DownloadURL>
+            <Author>Jovicom</Author>
+            <Maintainer/>
+            <Description>Un thème à la Indiana Jones créé par Jovicom pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=4567</Homepage>
+            <Screenshots>
+                <URL>http://i31.tinypic.com/160odvo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>AppleTV (Jovicom)</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/AppleTV2.zip</DownloadURL>
+            <Author>Jovicom</Author>
+            <Maintainer/>
+            <Description>Un thème à la Mario Tennis (NINTENDO) créé par Jovicom pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=4567</Homepage>
+            <Screenshots>
+                <URL>http://i30.tinypic.com/21l1keu.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Pacman</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Pacman.zip</DownloadURL>
+            <Author>Jovicom</Author>
+            <Maintainer/>
+            <Description>Un thème à la Pacman créé par Jovicom pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=4567</Homepage>
+            <Screenshots>
+                <URL>http://i29.tinypic.com/nxq4g2.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Star Wars</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Starwars.zip</DownloadURL>
+            <Author>Jovicom</Author>
+            <Maintainer/>
+            <Description>Un thème à la Star Wars créé par Jovicom pour le NMT.Pour affichage en HD seulement.</Description>
+            <Homepage>http://networkedmediatank.com/showthread.php?tid=4567</Homepage>
+            <Screenshots>
+                <URL>http://i30.tinypic.com/dnez37.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Stilrent</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Stilrent.zip</DownloadURL>
+            <Author>sebbe1985</Author>
+            <Maintainer/>
+            <Description>Un thème créé par sebbe1985. Pour affichage en HD et SD.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=13414</Homepage>
+            <Screenshots>
+                <URL>http://img183.imageshack.us/img183/3701/previewbs5.jpg</URL>
+                <URL>http://img183.imageshack.us/img183/8790/preview2hz0.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Pirate Theme</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/PirateTheme.zip</DownloadURL>
+            <Author>Cybrow</Author>
+            <Maintainer/>
+            <Description>Un thème de Pirates créé par Cybrow. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=9911</Homepage>
+            <Screenshots>
+                <URL>http://allpointsshopping.com/Pirates5.jpg</URL>
+                <URL>http://www.allpointsshopping.com/Pirates4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Classic Elegance</Name>
+            <Version>1.40</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/ClassicElegance.zip</DownloadURL>
+            <Author>FLaSH</Author>
+            <Maintainer/>
+            <Description>Un thème Classique , élégance créé par FLaSH. Pour affichage en HD et SD.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=5420</Homepage>
+            <Screenshots>
+                <URL>http://img231.imageshack.us/img231/6048/classicelegancev140pchfv1.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Rockets! Robots! Shiny Buttons!</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Rockets.zip</DownloadURL>
+            <Author>Cybrow</Author>
+            <Maintainer/>
+            <Description>Un thème avec des roquettes et des boutons brillants !! créé par Cybrow. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=8318</Homepage>
+            <Screenshots>
+                <URL>http://www.allpointsshopping.com/DM%20Sample%201.jpg</URL>
+                <URL>http://www.allpointsshopping.com/DM%20Sample%202.jpg</URL>
+                <URL>http://www.allpointsshopping.com/DM%20Sample%203.jpg</URL>
+                <URL>http://www.allpointsshopping.com/Photo%20Album.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Super Hero</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/SuperHero.zip</DownloadURL>
+            <Author>Cybrow</Author>
+            <Maintainer/>
+            <Description>Un thème de Super Héros créé par Cybrow. Pour affichage en HD et SD.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=6711</Homepage>
+            <Screenshots>
+                <URL>http://allpointsshopping.com/Comic%20Sample%201.jpg</URL>
+                <URL>http://allpointsshopping.com/Comic%20Sample%203.jpg</URL>
+                <URL>http://allpointsshopping.com/Comic%20Sample%202.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Petty Girls</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/PettyGirls.zip</DownloadURL>
+            <Author>Cybrow</Author>
+            <Maintainer/>
+            <Description>Un thème sur les pinup des années 50 crée par Cybrow. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=6948</Homepage>
+            <Screenshots>
+                <URL>http://www.allpointsshopping.com/Girlie%20Sample%2002.jpg</URL>
+                <URL>http://www.allpointsshopping.com/Girlie%20Sample%2002b.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Hipmen's skinmix</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Hipmen.zip</DownloadURL>
+            <Author>Hipmen</Author>
+            <Maintainer/>
+            <Description>Un très bel ensemble d'habillage pour le NMT. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=6849</Homepage>
+            <Screenshots>
+                <URL>http://zyczeniaswiateczne.yoyo.pl/R1.jpg</URL>
+                <URL>http://zyczeniaswiateczne.yoyo.pl/skins2.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Exlo</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Exlo.zip</DownloadURL>
+            <Author>Exlo</Author>
+            <Maintainer/>
+            <Description>Un habillage créé par Exlo, Un menu personnalisé assorti est aussi disponible!. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=15817</Homepage>
+            <Screenshots>
+                <URL>http://home.broadpark.no/~magholme/Extra/PCH/thumbnail_english.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Kdoske</Name>
+            <Version>0.2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Kodske_v02.zip</DownloadURL>
+            <Author>Exlo</Author>
+            <Maintainer/>
+            <Description>Un habillage créé par Kdoske, Un menu personnalisé assorti est aussi disponible!. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=10029</Homepage>
+            <Screenshots>
+                <URL>http://img47.imageshack.us/img47/6311/indexrendercx0.png</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>1st class smoothness</Name>
+            <Version>0.2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/1st_class_smoothness.zip</DownloadURL>
+            <Author>OptiX</Author>
+            <Maintainer/>
+            <Description>Un habillage harmonieux créé par OptiX. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=17104</Homepage>
+            <Screenshots>
+                <URL>http://i641.photobucket.com/albums/uu138/OptiX_/1st_class_smoothness_preview1.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Meowmoo</Name>
+            <Version>1.2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/meowmoov1.2.zip</DownloadURL>
+            <Author>Meowmoo</Author>
+            <Maintainer/>
+            <Description>Un habillage créé par Meowmoo. Un menu personnalisé assorti est aussi disponible!. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=14670</Homepage>
+            <Screenshots>
+                <URL>http://img266.imageshack.us/img266/7459/pre1qb4.jpg</URL>
+                <URL>http://img61.imageshack.us/img61/6454/unbenannt1st2.jpg</URL>
+                <URL>http://img266.imageshack.us/img266/2599/unbenannt2vq6.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Leef</Name>
+            <Version>1</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/Leef.zip</DownloadURL>
+            <Author>Meowmoo</Author>
+            <Maintainer/>
+            <Description>Un habillage créé par Meowmoo. Pour affichage en HD seulement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=17614</Homepage>
+            <Screenshots>
+                <URL>http://i41.tinypic.com/257oe9j.png</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Default</Name>
+            <Version>1</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/default.zip</DownloadURL>
+            <Author>Popcorn Hour</Author>
+            <Maintainer/>
+            <Description>L'habillage par défaut du Pop Corn Hour</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/rodnaya_tema_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/rodnaya_tema_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/rodnaya_tema_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/rodnaya_tema_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Hour</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/hour_theme.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Thème de tv1080.ru</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/PopcornHour_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/PopcornHour_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/PopcornHour_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/PopcornHour_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>DarkBlue</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/darkblue_theme.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Thème de tv1080.ru</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/DarkBlue_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/DarkBlue_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/DarkBlue_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/DarkBlue_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Carbon</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/carbon_theme.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Thème de tv1080.ru</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/carbon_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/carbon_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/carbon_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/carbon_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>False</SD>
+            </Formats>
+            <Name>Flowers</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/flowers_theme.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Thème de tv1080.ru</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/flowers_theme_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/flowers_theme_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/flowers_theme_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/flowers_theme_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Battle</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/battle_theme.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Thème de tv1080.ru</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/battle_theme_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/battle_theme_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/battle_theme_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/battle_theme_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Retro</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/retro_theme.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Thème de tv1080.ru</Description>
+            <Homepage>http://tv1080.ru/content/view/13/28/</Homepage>
+            <Screenshots>
+                <URL>http://tv1080.ru/images/stories/retro_theme_1.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/retro_theme_2.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/retro_theme_3.jpg</URL>
+                <URL>http://tv1080.ru/images/stories/retro_theme_4.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Cinema Mk1</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/CinemaMk1.zip</DownloadURL>
+            <Author>Gibbo</Author>
+            <Maintainer/>
+            <Description/>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=20564</Homepage>
+            <Screenshots>
+                <URL>http://img24.imageshack.us/img24/3392/skinkof.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+        <Theme>
+            <Formats>
+                <HD>True</HD>
+                <SD>True</SD>
+            </Formats>
+            <Name>Cinema Mk2</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Themes/CinemaMk2.zip</DownloadURL>
+            <Author>Gibbo</Author>
+            <Maintainer/>
+            <Description/>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=20564</Homepage>
+            <Screenshots>
+                <URL>http://img511.imageshack.us/img511/8977/cinema2q.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Theme>
+    </Themes>
+    <Indexes>
+        <Index>
+            <Name>Index by AlexNC</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/AlexNC.zip</DownloadURL>
+            <Author>AlexNC</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par AlexNC. En HD uniquement.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=13624</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Calm</Name>
+            <Version>1.1</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/ExcalCalm1.1.zip</DownloadURL>
+            <Author>Excal</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Excal.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=15034</Homepage>
+            <Screenshots>
+                <URL>http://img76.imageshack.us/img76/6923/indexqi0.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Calm</Name>
+            <Version>2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/ExcalCalm2.zip</DownloadURL>
+            <Author>Excal</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Excal.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=15034</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>New Folder</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/ExcalNewFolder.zip</DownloadURL>
+            <Author>Excal</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Excal.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=15034</Homepage>
+            <Screenshots>
+                <URL>http://img372.imageshack.us/img372/4011/indexvu0.th.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Kdoske</Name>
+            <Version>0.2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/Kdoske0.2.zip</DownloadURL>
+            <Author>Kdoske</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Kdoske.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=10029</Homepage>
+            <Screenshots>
+                <URL>http://img47.imageshack.us/img47/6311/indexrendercx0.png</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Mcmilly</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/Mcmilly.zip</DownloadURL>
+            <Author>Mcmilly</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Mcmilly.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=6696</Homepage>
+            <Screenshots>
+                <URL>http://i34.tinypic.com/11si35v.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>meowmoo</Name>
+            <Version>1.2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/meowmoov1.2.zip</DownloadURL>
+            <Author>Mcmilly</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Mcmilly.Un thème assorti est aussi disponible!</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=14670</Homepage>
+            <Screenshots>
+                <URL>http://img266.imageshack.us/img266/7459/pre1qb4.jpg</URL>
+                <URL>http://img61.imageshack.us/img61/6454/unbenannt1st2.jpg</URL>
+                <URL>http://img266.imageshack.us/img266/2599/unbenannt2vq6.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>RiChaDo &amp; ejp</Name>
+            <Version>1.2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/RiChaDo.zip</DownloadURL>
+            <Author>RiChaDo &amp; ejb</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par RiChaDo &amp; ejp.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=12449</Homepage>
+            <Screenshots>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-2-movies-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090118/screen-preferences.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090118/screen-music.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Back to Basics</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/BackToBasics.zip</DownloadURL>
+            <Author>mcmillyonaire</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par mcmillyonaire</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=15576</Homepage>
+            <Screenshots>
+                <URL>http://img232.imageshack.us/img232/5716/picture1dp4.png</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Exlo</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/Exlo.zip</DownloadURL>
+            <Author>Exlo</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par Exlo, un thème assorti est aussi disponible!</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=15817</Homepage>
+            <Screenshots>
+                <URL>http://home.broadpark.no/~magholme/Extra/PCH/thumbnail_english.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>StreamedNMT</Name>
+            <Version>1.9.0722</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/StreamedNMTv1.9.0722.zip</DownloadURL>
+            <Author>EJP</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par EJP</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=12449</Homepage>
+            <Screenshots>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-1-videos-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-2-movies-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-3-music-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-4-pictures-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-5-online-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-6-system-redo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/streamednmt/090102/rls-7-exit-redo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>SpeedDial</Name>
+            <Version>1.9.0729</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/SpeedDialNMTv1.9.0729.zip</DownloadURL>
+            <Author>RiChaDo</Author>
+            <Maintainer/>
+            <Description>Un ensemble d'index créé par RiChaDo</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=12449</Homepage>
+            <Screenshots>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-1-login.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-2-home.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-3-video.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-4-music.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-5-photo.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-6-prefs.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-7-wall.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-8-detail1.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/ss-9-detail2.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/tut-1-login.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/tut-2-home.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/tut-3-app.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/tut-4-wall.jpg</URL>
+                <URL>http://i50.photobucket.com/albums/f336/room312/speeddial/090729/tut-5-detail.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+            <Name>Redefined Static</Name>
+            <Version>Update2</Version>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/Indexes/RedefinedStaticIndex.zip</DownloadURL>
+            <Author>mcmillyonaire</Author>
+            <Maintainer/>
+            <Description>Cet index va de pair avec le thème/skin Redefined qui fonctionne avec YAMJ.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=19714</Homepage>
+            <Screenshots>
+                <URL>http://img5.imageshack.us/img5/4958/mainindexnewskincolours.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </Index>
+        <Index>
+
+            <Name>Popdex</Name>
+
+            <Version>1.2</Version>
+
+            <DownloadURL>http://popdex.googlecode.com/files/Popdex-v1.2.zip</DownloadURL>
+
+            <Author>Courtenay Probert</Author>
+
+            <Maintainer />
+
+            <Description>Popdex is a custom menu based on xbmc aeon theme.
+
+Features
+------------
+- Customisable Backdrops
+- 3 Menus [Main, Services, Hidden]
+- Date
+
+The hidden menu can be configured to activated after a certain time or can be enabled via a pincode (default = 1425)
+
+Customize
+------------
+- 1st read index.readme.txt
+- Edit: index.menu.js
+- Customize shortcuts to your preferred locations
+- Add your own backdrops to /Photo/_index_/backdrops/ (image resolution 1100x619)</Description>
+
+            <Homepage>http://code.google.com/p/popdex/</Homepage>
+
+            <Screenshots>
+
+                <URL>http://popdex.googlecode.com/files/Video.JPG</URL>
+                <URL>http://popdex.googlecode.com/files/Jukebox.JPG</URL>
+                <URL>http://popdex.googlecode.com/files/Music.JPG</URL>
+                <URL>http://popdex.googlecode.com/files/Setup.JPG</URL>
+
+            </Screenshots>
+
+            <UsageInstructions />
+
+            <UsageInstructions />
+
+            <Forum>http://www.networkedmediatank.com/showthread.php?tid=49062</Forum>
+
+            <Changelog>Moved the hidden menu activation codes to the index.menu.js for easy configuration</Changelog>
+
+        </Index>
+    </Indexes>
+    <WaitImageSets>
+        <WaitImageSet>
+            <Name>Sleek</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/Sleek.zip</DownloadURL>
+            <Author>mcmillyonaire</Author>
+            <Maintainer/>
+            <Description>Images de Buffering créés par mcmillyonaire</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=6696</Homepage>
+            <Screenshots>
+                <URL>http://img301.imageshack.us/img301/1151/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Default</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/Default.zip</DownloadURL>
+            <Author>mcmillyonaire</Author>
+            <Maintainer/>
+            <Description>L'image d'origine par défaut de Buffering Pop Corn Hour</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img258.imageshack.us/img258/4025/demou.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 1</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering1.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img14.imageshack.us/img14/1151/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 2</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering2.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img24.imageshack.us/img24/1151/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 3</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering3.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img24.imageshack.us/img24/8679/demoz.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 4</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering4.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img16.imageshack.us/img16/1151/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 5</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering5.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img258.imageshack.us/img258/1674/demoj.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 6</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering6.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img23.imageshack.us/img23/1151/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 7</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering7.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img3.imageshack.us/img3/7276/demoo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Buttering 8</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/buttering8.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>L'image par défaut de Buffering humoristiquement beurré.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img529.imageshack.us/img529/1151/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Color</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/Color.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Un élégant affichage logo de Buffering en couleurs</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img3.imageshack.us/img3/2537/demok.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Hi! I'm loading</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/hi_im_loading.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Un élégant affichage logo de Buffering en Noir et Blanc.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img3.imageshack.us/img3/5641/demol.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Org</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/org.zip</DownloadURL>
+            <Author>unknown</Author>
+            <Maintainer/>
+            <Description>Un élégant logo de Buffering en Noir et Blanc.</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=7940</Homepage>
+            <Screenshots>
+                <URL>http://img16.imageshack.us/img16/7513/demor.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Redefined</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/Redefined.zip</DownloadURL>
+            <Author>mcmillyonaire</Author>
+            <Maintainer>mcmillyonaire</Maintainer>
+            <Description>Mise en mémoire tampon des images utilisées par l'index et le thème de Redefined</Description>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=19714</Homepage>
+            <Screenshots>
+                <URL>http://img17.imageshack.us/img17/5342/demow.jpg</URL>
+                <URL>http://img9.imageshack.us/img9/5984/logohd.jpg</URL>
+                <URL>http://img19.imageshack.us/img19/4207/logohd2.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Dennis Blue</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/DennisBlue.zip</DownloadURL>
+            <Author>Dennis</Author>
+            <Maintainer>Dennis</Maintainer>
+            <Description/>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=21415</Homepage>
+            <Screenshots>
+                <URL>http://www.macfishing.nl/dvo/demo.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Dennis Brown</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/DennisBrown.zip</DownloadURL>
+            <Author>Dennis</Author>
+            <Maintainer>Dennis</Maintainer>
+            <Description/>
+            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=21415</Homepage>
+            <Screenshots>
+                <URL>http://www.macfishing.nl/dvo/demo01.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Denis One</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/DenisOne.zip</DownloadURL>
+            <Author>Denis</Author>
+            <Maintainer>Denis</Maintainer>
+            <Description/>
+            <Homepage/>
+            <Screenshots>
+                <URL>http://img8.imageshack.us/img8/7210/logotns.jpg</URL>
+                <URL>http://img8.imageshack.us/img8/7222/logo2xub.jpg</URL>
+                <URL>http://img8.imageshack.us/img8/2489/demowdv.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+        <WaitImageSet>
+            <Name>Denis Two</Name>
+            <Version/>
+            <DownloadURL>http://54.75.246.28/~csi/csi-packages/100/WaitImageSets/DenisTwo.zip</DownloadURL>
+            <Author>Denis</Author>
+            <Maintainer>Denis</Maintainer>
+            <Description/>
+            <Homepage/>
+            <Screenshots>
+                <URL>http://img8.imageshack.us/img8/5909/logoglr.jpg</URL>
+                <URL>http://img8.imageshack.us/img8/5757/logo2pzc.jpg</URL>
+                <URL>http://img8.imageshack.us/img8/9901/demondy.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <Forum/>
+            <Changelog/>
+        </WaitImageSet>
+    </WaitImageSets>
+    <Webservices>
+        <Webservice>
+            <Name>Weather</Name>
+            <Version />
+            <DownloadURL />
+            <Author />
+            <Maintainer />
+            <Description>Displays weather information</Description>
+            <Homepage>http://www.brettcharney.com/weather/Instructions/</Homepage>
+            <Screenshots />
+            <UsageInstructions />
+            <WebserviceUrl>http://www.brettcharney.com/weather/</WebserviceUrl>
+            <Forum>http://www.networkedmediatank.com/showthread.php?tid=14832</Forum>
+            <Changelog />
+        </Webservice>
+        <Webservice>
+            <Name>Compiz</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Compiz media center</Description>
+            <Homepage>http://www.compiz.de</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://www.compiz.de</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>German 2nd TV</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>2nd German TV</Description>
+            <Homepage>http://www.dialogfernsehen.de/</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://www.dialogfernsehen.de/nmt/zdf.php5?1106</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>German TV RSS Feeds</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Fils RSS TV Allemande</Description>
+            <Homepage>http://www.bessser.de</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://www.bessser.de/programm</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>German Trailers small</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Bandes-annonces Allemandes (Petit format)</Description>
+            <Homepage>http://www.networkedmediatank.com</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://nmt:nmt@www.livepark.de/nmt/kinotrailer/index.php?&amp;V=s</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>German Trailers medium</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Bandes-annonces Allemandes (Moyen format)</Description>
+            <Homepage>http://www.networkedmediatank.com</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://nmt:nmt@www.livepark.de/nmt/kinotrailer/index.php?&amp;V=m</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>German Trailers large</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Bandes-annonces Allemandes (Grand Format)</Description>
+            <Homepage>http://www.networkedmediatank.com</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://nmt:nmt@www.livepark.de/nmt/kinotrailer/index.php?&amp;V=l</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>BlackJack game</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Jouer à un jeu de Blackjack</Description>
+            <Homepage>http://www.brettcharney.com</Homepage>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://www.brettcharney.com/blackjack</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Apple Trailers 2</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Bandes Annonces Apple</Description>
+            <Homepage>http://www.mspportal.com</Homepage>
+            <Screenshots>
+                <URL>http://www.mspportal.com/service/community/media/thumb/appletrailer_felix_buenemann/thumb-148x109.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/appletrailer_felix_buenemann</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Apple Trailers 3</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Apple Trailers</Description>
+            <Homepage>http://www.mspportal.com</Homepage>
+            <Screenshots>
+                <URL>http://www.mspportal.com/service/community/media/thumb/movie_trailers/thumb-148x109.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <WebserviceUrl>http://pch.sitebase.be/en/trailers/</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Apple Trailers 1</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Bandes Annonces Films Apple</Description>
+            <Homepage>http://www.apple.com/trailers</Homepage>
+            <Screenshots>
+                <URL>http://www.mspportal.com/service/community/media/thumb/apple_movie_trailers/thumb-148x109.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/Apple_Movie_Trailers</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Miro video</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Miro est un lecteur HD gratuit. Il peut jouer pratiquement n'importe quel fichier vidéos et offre plus de 6000 émissions Web TV et podcasts vidéos gratuits.</Description>
+            <Homepage>http://www.getmiro.com/</Homepage>
+            <Screenshots>
+                <URL>http://www.mspportal.com/service/community/media/thumb/miroguide/thumb-148x109.jpg</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/action/showservice.jsp?homePath=http://www.mspportal.com/community&amp;serviceid=miroguide&amp;res=1280x720</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Audio podcasts</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author>Slovensky Rozhlas</Author>
+            <Maintainer/>
+            <Description>Podcasts Audio</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/PVi1_podcast</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Shoutcast directory browser</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Navigateur pour serveur de diffusion pour webradio ou pour webtv de type Shoutcast</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://hdx.i-v-o.nl</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Google Maps plus Panoramio</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Google Maps incluant Panoramio</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://nmt.mindsuburbia.net/gmaps/</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Easynews</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Easynews</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://nextdimension.ws/easyvews/index.php</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Shralp</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Shralp</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/shralp</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Photo Bucket</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Photo Bucket</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/Chetan_sample</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Digitally Imported</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Digitally Imported dance music</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://msp.therion.be/shoutcast/di.fm/</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Pixy</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Pixy</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://baloo.jungle.in.ua/</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Mircoguide</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Mircoguide</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/Miroguide</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Web comic</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Service Web Web comic</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/comics</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Tanquiz</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Tanquiz</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://www.thepixel.net/tanquiz/</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Danyxi.net Pure Sessions</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Danyxi.net Pure Sessions</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://plugin.mspsite.com/user/danyix</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Gmail</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Lisez votre courriel Gmail sur votre NMT</Description>
+            <Homepage/>
+            <Screenshots/>
+            <UsageInstructions/>
+            <WebserviceUrl>http://msp.zarowa.com/gmail/</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+        <Webservice>
+            <Name>Hardware.info TV</Name>
+            <Version/>
+            <DownloadURL/>
+            <Author/>
+            <Maintainer/>
+            <Description>Hardware.info TV sur votre NMT</Description>
+            <Homepage/>
+            <Screenshots>
+                <URL>http://images.hardwareinfo.net/hwi_logo_footer.png</URL>
+            </Screenshots>
+            <UsageInstructions/>
+            <WebserviceUrl>http://www.hardware.info/tools/nmt.php</WebserviceUrl>
+            <Forum/>
+            <Changelog/>
+        </Webservice>
+    </Webservices>
+</Repository>

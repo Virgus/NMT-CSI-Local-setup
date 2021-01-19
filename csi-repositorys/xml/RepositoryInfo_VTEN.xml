@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Repository>
+    <Applications>
+        <Application>
+            <Name>PchTrakt</Name>
+            <Version>0.4.23</Version>
+            <DownloadURL>http://localhost/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip</DownloadURL>
+            <Author>jlauwers</Author>
+            <Maintainer>jlauwers</Maintainer>
+            <Description>PchTrakt is a small software that enables your popcorn 200 and 300 series to communicate with trakt.tv to scrobble what you are watching.
+			Features:
+			Trakt scrobbling (TV Series/Movies)
+			BetaSeries scrobbling (French website like trakt) (TV Series)
+			Create a .watched file for YAMJ/Eversion
+			Ignore folder and/or genre
+			Auto-update</Description>
+            <Homepage>http://trakt.tv/</Homepage>
+            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;pchtrakt.tar</InstallScript>
+            <WebInterfaceURL />
+            <GayaInterfaceURL />
+            <Screenshots />
+            <UsageInstructions>With SAMBA or FTP, go to \\your_popcorn_IP\share\Apps\pchtrakt\ and edit pchtrakt.ini to add your trakt login and password. (we are working on a better way to do this)
+			Then restart pchtrakt.
+			You are good to go!
+			Play some files, and don't forget that the naming of the files matters!
+			For example:
+			The Big Bang Theory - S01E02 - episode title.mkv will work.
+			Tbbt0102.mkv will not work.
+			
+			For the watched file:
+			watched means you activate the feature.
+			watched_with_video means you want to create the .watched file in the same repertory that the video file
+			path is used when you want the .watched files to be all in the same repertory or if you launch PchTrakt from another computer than the popcorn</UsageInstructions>
+            <Forum>http://www.networkedmediatank.com/showthread.php?tid=58356</Forum>
+            <Changelog />
+        </Application>
+      <Application>
+         <Name>NetworkMounter</Name>
+         <Version>0.5</Version>
+         <DownloadURL>http://localhost/csi/csi-packages/csi_VTEN_networkmounter.zip</DownloadURL>
+         <Author>jhmiller</Author>
+         <Maintainer>jhmiller</Maintainer>
+         <Description>Mount nfs/cifs network shares on the local filesystem.</Description>
+         <Homepage>http://www.networkedmediatank.com/showthread.php?tid=61593</Homepage>
+         <InstallScript>Apps/AppInit/appinit.cgi?install&amp;NetworkMounter.tar</InstallScript>
+         <WebInterfaceURL></WebInterfaceURL>
+         <GayaInterfaceURL></GayaInterfaceURL>
+         <Screenshots>
+         </Screenshots>
+         <UsageInstructions>After installing goto /share/Apps/NetworkMounter and rename example_config.ini to config.ini
+		 Edit this file using the examples as a guide. Post on forums if you have any problems.</UsageInstructions>
+         <Forum/>
+         <Changelog>Updated for beter samba mounting and showing share in networked drive list.</Changelog>
+      </Application>
+    </Applications>
+    <Themes />
+    <Indexes/>
+    <WaitImageSets />
+    <Webservices />
+</Repository>

@@ -1,0 +1,5 @@
+for i in `ls *.xml`
+do
+x=`echo "$i"|sed 's|xml|zip|g'`
+zip ../$x $i
+done
