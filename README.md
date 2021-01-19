@@ -15,7 +15,7 @@ mv /opt/sybhttpd/localhost.drives/SATA_DISK_A3 /opt/sybhttpd/localhost.drives/SA
 ```
 
 This was only the first part of the problem as many issues are related to NMT CSI repositories which are offline or not updated so here the instructions on how to have a local mock-up of all the repositories.
-- Download Rejetto portable http server and place it into NMTCommunityInstallerPortable folder
+- Download [Rejetto portable http server](https://www.rejetto.com/hfs/?f=dl) and place it into NMTCommunityInstallerPortable folder
 - Download the csi folder with all its content from the excellent [vaidyasr's repository](https://github.com/vaidyasr/nmtcsi) and place it into NMTCommunityInstallerPortable folder
 - Download all the [csi-downloads](https://github.com/cptjhmiller/CSI/tree/master/) folder from cptjhmiller github and merge it with NMTCommunityInstallerPortable\csi\csi-downloads local folder
 - Download all the modified files from this repository and replace those found in your local NMTCommunityInstallerPortable folder.
