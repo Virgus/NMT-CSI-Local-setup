@@ -1,0 +1,52 @@
+Available packages for C-200 PopCorn Hour:
+AjaxExplorer 1.10.3.2-nmt1
+CouchpotatoV2 2.2
+DownloadManager 3.2
+FeedTime r159
+FileManager 1.1.1
+LogitechMediaSewer latest-n...
+MKVToolNix v9.5.0-nmt1
+MKVTools 1.1.1
+MPD v0.20.12-nmt1
+MediaTomb latest-nmt1
+MiniDLNA v1.1.5-nmt1
+NMJManager 1.0.6
+NMJManager v2.0.0-nmt1
+NMJManagerTablet 2.03
+NZBget 11.0-stable
+NZBget 12.0-testing-r883
+NZBget 19.1-nmt1
+NetworkMounter 0.5
+NzbDrone v2.0.0.2282-nmt1
+OVJNavigator 1.0.0
+OpenSSH v7.4p1-nmt1
+Oversight v2.0alpha-r2383
+Pch Trakt 0.4.23
+SYNK 1.0.0
+SickBeard 1.1
+SickRage 1.0
+Transmission 3.00-nmt1
+c200remote 1.0.1
+debian 7.7-wheezy-2
+lighttpd v1.4.41-nmt1
+local 0.3.1-nmt2
+owncloud v7.0.4-nmt2
+php7 v7.0.10-nmt1
+pyLoad v0.4.9-nmt1
+rclone v1.36-nmt1
+webui-aria2 v1.0.0-nmt1
+
+Missing:
+x Airplay-nmt r13
+x C200RegionFree 1.1.5
+x DEV Wiimote test 0.0.1
+x Litepodder 1.1.0
+x Musicbrowser-nmt3 0.24.2
+x Region Counter Clear 1.0.0
+x TorrentExpander r199
+x Transmission 2.71-dath1
+x llink 2.2.2
+x llink 2.2.3.99
+x llink 2.2.4
+x llink 2.3.0
+x llink 2.3.2
